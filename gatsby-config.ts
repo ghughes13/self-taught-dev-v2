@@ -10,7 +10,14 @@ const config: GatsbyConfig = {
     options: {
       "trackingId": "UA-175319701-1"
     }
-  }, "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap"]
+  }, "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap",
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      name: 'images',
+      path: 'src/images'
+    },
+  }]
 };
 
 export default config;

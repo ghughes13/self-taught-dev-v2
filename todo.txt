@@ -1,0 +1,3 @@
+//Finish Bringing In Files from V1.0.0 and convert to ts/tsx
+//Remove all doc.querySelector statements
+//Reimplement user acct creation/Auth/Login

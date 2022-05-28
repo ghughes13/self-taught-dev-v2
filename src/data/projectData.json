@@ -1,0 +1,101 @@
+[
+  {
+    "projectTitle": "Flooble Homepage",
+    "imgUrl": "/googleHomepage.png",
+    "videoUrl": "https://youtu.be/8mukVpWKIUs",
+    "skills": "HTML, CSS",
+    "isFreeProject": "free"
+  },
+  {
+    "projectTitle": "JavaScript Clock",
+    "imgUrl": "/javascriptClock.png",
+    "videoUrl": "https://youtu.be/dCJq6L02u0M",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": "free"
+  },
+  {
+    "projectTitle": "To-Do List App",
+    "imgUrl": "/toDoList.png",
+    "videoUrl": "https://youtu.be/JEiUoLzjBiA",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": "free"
+  },
+  {
+    "projectTitle": "Issue Tracker",
+    "imgUrl": "/issue-tracker.png",
+    "videoUrl": "https://youtu.be/pU_ljDH-NzQ",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Stonks",
+    "imgUrl": "/stocks.png",
+    "videoUrl": "https://youtu.be/x54478DCz6c",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": "free"
+  },
+  {
+    "projectTitle": "Sudoku",
+    "imgUrl": "/sudoku.png",
+    "videoUrl": "https://youtu.be/x54478DCz6c",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Quiz App",
+    "imgUrl": "/quiz-app.png",
+    "videoUrl": "https://youtu.be/3Zl0adR5suI",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Pokedex",
+    "imgUrl": "/reactPokedex.png",
+    "videoUrl": "https://youtu.be/JDmMCztRqxg",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Checkout Form",
+    "imgUrl": "/checkout-form-thumbnail.png",
+    "videoUrl": "https://youtu.be/gUyQYjH5tfQ",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Memory Game",
+    "imgUrl": "/memoryGame.png",
+    "videoUrl": "https://youtu.be/pU_ljDH-NzQ",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Weather App",
+    "imgUrl": "/weatherApp.png",
+    "videoUrl": "https://www.youtube.com/watch?v=JRGzlRW1mNM&feature=youtu.be",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+
+  {
+    "projectTitle": "Gif Search Tool",
+    "imgUrl": "/gify-r.png",
+    "videoUrl": "https://youtu.be/Z5xEWt9ui1s",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Phrase Guessing Game",
+    "imgUrl": "/phrase-guessing-game.png",
+    "videoUrl": "https://youtu.be/x54478DCz6c",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  },
+  {
+    "projectTitle": "Pattern Matching Game",
+    "imgUrl": "/patt3rn.png",
+    "videoUrl": "https://youtu.be/x54478DCz6c",
+    "skills": "HTML, CSS, JavaScript",
+    "isFreeProject": ""
+  }
+]
