@@ -1,3 +1,13 @@
-//Finish Bringing In Files from V1.0.0 and convert to ts/tsx
 //Remove all doc.querySelector statements
 //Reimplement user acct creation/Auth/Login
+//Figure out how to handle SVGS better
+//Refactor form logic to have parent component 
+  -LoginScreen
+  -MailingListSignup
+  -
+//Add esLint rc
+//Add prettier rc
+//Add Jest And Get test coverage to 70%
+
+
+//Converting email-templates files to .tsx may cause issues

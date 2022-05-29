@@ -1,0 +1,42 @@
+.hero {
+  background: url("../../../images/hero.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 90vh;
+  position: relative;
+
+  .logo {
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .down-arrows {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5vh;
+  }
+
+  .down-arrows {
+    z-index: 9;
+  }
+  &:after {
+    content: "";
+    background: linear-gradient(to bottom, transparent, #282c34);
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}

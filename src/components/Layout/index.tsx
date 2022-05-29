@@ -7,7 +7,7 @@ import "./styles.scss"
 
 type LayoutProps = {
   children: JSX.Element | JSX.Element[],
-  footerClasses: string,
+  footerClasses?: string,
   className?: string,
 }
 

@@ -1,0 +1,138 @@
+.project-detailed-view {
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+
+  .background-image {
+    background-size: cover;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(8px);
+  }
+
+  &:after {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .back {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 9;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .content {
+    z-index: 9;
+    position: relative;
+    text-align: center;
+    padding-top: 125px;
+
+    h1 {
+      z-index: 9;
+      position: relative;
+      font-weight: 500;
+      margin-bottom: 50px;
+      padding-top: 0;
+    }
+
+    p {
+      color: white;
+      max-width: 950px;
+      margin: auto;
+      font-size: 20px;
+
+      @media screen and (max-width: 767px) {
+        padding: 0 25px;
+      }
+    }
+
+    .plan-comparison {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .plan-option {
+      flex-basis: 40%;
+      background: #3c3f58;
+      border: solid #3bb99b 2px;
+      border-radius: 25px;
+      padding: 25px 50px;
+
+      ul {
+        max-width: 220px;
+        margin: auto;
+        padding-left: 30px;
+        text-align: left;
+
+        li {
+          position: relative;
+
+          &:before {
+            content: url("../../svgs/check.svg");
+            position: absolute;
+            left: -35px;
+            top: 3px;
+          }
+
+          &.exclude:before {
+            content: url("../../svgs/x.svg");
+            position: absolute;
+            left: -35px;
+            top: 3px;
+          }
+        }
+
+        span {
+          display: block;
+          font-size: 14px;
+          padding-left: 20px;
+        }
+      }
+
+      a {
+        margin-top: 15px;
+      }
+
+      .demo-btn {
+        margin-top: 50px;
+        display: inline-block;
+        border-radius: 10px;
+        text-decoration: none;
+        min-width: 300px;
+        font-size: 24px;
+        transition-duration: 0.25s;
+        cursor: pointer;
+      }
+    }
+
+    .upgrade-subtext {
+      margin-top: -1.4rem;
+      font-size: 16px;
+      margin-bottom: 1.45rem;
+    }
+  }
+}
