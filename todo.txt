@@ -8,6 +8,14 @@
 //Add esLint rc
 //Add prettier rc
 //Add Jest And Get test coverage to 70%
+//Convert site to frontendmentor.io pricing model (Tiers for certain # of projects per month)
+  //Create New Prices on Stripe
+  //Add new field to DB for projects per month & membership Tier?
+  //Create webhook to check acct type and give credits appropriately
+//Build Price Page
+//Build Project Submission Page
+//Add Admin account that can do everything
+//Update Project Detailed View Page
+//Convert adobe XD mockups to Figma and bundle with project download
 
-
-//Converting email-templates files to .tsx may cause issues
+//**Converting email-templates files to .tsx may cause issues
