@@ -4,9 +4,6 @@
 //Refactor form logic to have parent component 
   -LoginScreen
   -MailingListSignup
-  -
-//Add esLint rc
-//Add prettier rc
 //Add Jest And Get test coverage to 70%
 //Convert site to frontendmentor.io pricing model (Tiers for certain # of projects per month)
   //Create New Prices on Stripe
