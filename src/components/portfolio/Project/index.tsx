@@ -22,7 +22,7 @@ const Project = ({
   return (
     <div className="project">
       <img
-        src={require("../../../images/portfolio-sites/" + imgSrc)}
+        src={require("../../../images/portfolio-sites/" + imgSrc).default}
         alt="Respontive Portfolio Site"
       />
       <div className="overlay">

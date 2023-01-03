@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `SelfTaughtDev`,
+    siteUrl: `https://selftaught-dev.com`
   },
   plugins: ["gatsby-plugin-sass", {
     resolve: 'gatsby-plugin-google-analytics',

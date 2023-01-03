@@ -20,9 +20,9 @@ export default function ProjectArchive() {
             SelfTaughtDev
             <span className="mint-green">{"/>"}</span>
           </h1>
-          <WistiaPopOutVideo id='szz92zmrik'>
-            <button className="btn-style-1 min-width-200">How It Works</button>
-          </WistiaPopOutVideo>
+          {/* <WistiaPopOutVideo id='szz92zmrik'>
+            How It Works
+          </WistiaPopOutVideo> */}
           <DownArrows />
         </div>
         <div className="section-1 container">
@@ -58,7 +58,7 @@ export default function ProjectArchive() {
             <div className="col text-center one-third">
               <div className="img-container">
                 <img
-                  src={require("../svgs/home-page/pointing.svg")}
+                  src={require("../svgs/home-page/pointing.svg").default}
                   alt="pointing"
                 />
               </div>
@@ -74,7 +74,7 @@ export default function ProjectArchive() {
             <div className="col text-center one-third">
               <div className="img-container">
                 <img
-                  src={require("../svgs/home-page/download.svg")}
+                  src={require("../svgs/home-page/download.svg").default}
                   alt="downloading"
                 />
               </div>
@@ -92,7 +92,7 @@ export default function ProjectArchive() {
             <div className="col text-center one-third">
               <div className="img-container">
                 <img
-                  src={require("../svgs/home-page/build.svg")}
+                  src={require("../svgs/home-page/build.svg").default}
                   alt="coding"
                 />
               </div>

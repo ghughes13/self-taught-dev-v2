@@ -19,7 +19,7 @@ const About = () => {
         >
           <img
             className="youtube-logo"
-            src={require("../../../svgs/youtube-logo-white.svg")}
+            src={require("../../../svgs/youtube-logo-white.svg").default}
             alt="logo"
           />
         </a>

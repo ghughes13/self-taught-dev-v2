@@ -39,7 +39,7 @@ const About = () => {
           <i className="fa fa-youtube"></i>
         </a>
         <a href={pdf} target="_blank" rel="noreferrer">
-          <img src={require("../../../images/resume.png")} alt="resume" />
+          <img src={require("../../../images/resume.png").default} alt="resume" />
         </a>
       </div>
     </div>
