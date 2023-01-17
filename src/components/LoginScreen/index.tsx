@@ -77,7 +77,7 @@ const LoginForm = ({
                 name="email"
                 id="email"
               />
-              {errors.email && <p className="error-msg">Email is required</p>}
+              {/* {errors.email && <p className="error-msg">Email is required</p>} */}
             </label>
             <label htmlFor="password">
               <input
@@ -88,9 +88,9 @@ const LoginForm = ({
                 placeholder="Password"
                 id="password"
               />
-              {errors.password && (
+              {/* {errors.password && (
                 <p className="error-msg">Password is required</p>
-              )}
+              )} */}
             </label>
             {loggingIn ? (
               <Loader />
