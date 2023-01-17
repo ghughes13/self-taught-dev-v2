@@ -33,9 +33,14 @@ const Header = ({ siteTitle }: HeaderProps) => {
           />
         </Link>
         <div className="nav-links">
-          <Link id="archive" className="login-text" to="/project-archive">
+          <Link id="archive" className="login-text" to="/maintenance">
             Project Archive
           </Link>
+          <a 
+            className="login-text"
+            href="https://courses.selftaught-dev.com/">
+            Courses
+          </a>
           <a
             href="https://blog.selftaught-dev.com"
             target="_blank"

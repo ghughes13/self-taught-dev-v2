@@ -14,8 +14,11 @@ const BurgerMenu = () => {
       <a id="home" className="menu-item" href="/">
         Home
       </a>
-      <a id="archive" className="menu-item" href="/project-archive">
+      <a id="archive" className="menu-item" href="/maintenance">
         Project Archive
+      </a>
+      <a href="https://courses.selftaught-dev.com/">
+        Courses
       </a>
       <a
         href="https://blog.selftaught-dev.com"

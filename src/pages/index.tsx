@@ -108,9 +108,9 @@ export default function ProjectArchive() {
               </p>
             </div>
           </div>
-          <DownArrows />
+          {/* <DownArrows /> */}
         </div>
-        <div className="margin-bottom-100">
+        {/* <div className="margin-bottom-100">
           <div className="row justify-center">
             <h2>Projects</h2>
           </div>
@@ -134,7 +134,7 @@ export default function ProjectArchive() {
           <Link to="/project-archive" className="btn-style-1 min-width-200">
             See More
           </Link>
-        </div>
+        </div> */}
       </Layout>
     </ParallaxProvider>
   )
