@@ -85,9 +85,9 @@ const NewUser = ({
                     placeholder="Full Name"
                     name="user_metadata.full_name"
                   ></input>
-                  {errors.user_metadata?.full_name && (
+                  {/* {errors.user_metadata?.full_name && (
                     <p className="error-msg">Name is required</p>
-                  )}
+                  )} */}
                 </label>
                 <label htmlFor="email">
                   <input
@@ -102,9 +102,9 @@ const NewUser = ({
                     name="email"
                     id="email"
                   />
-                  {errors.email && (
+                  {/* {errors.email && (
                     <p className="error-msg">Email is required</p>
-                  )}
+                  )} */}
                 </label>
                 <label htmlFor="password">
                   <input
@@ -115,17 +115,17 @@ const NewUser = ({
                     placeholder="Password"
                     id="password"
                   />
-                  {errors.password && (
+                  {/* {errors.password && (
                     <p className="error-msg">Password is required</p>
-                  )}
+                  )} */}
                 </label>
-                <button
+                {/* <button
                   id="sbmt-form-btn"
                   className="btn-style-1"
                   type="submit"
                 >
                   Create Account
-                </button>
+                </button> */}
               </>
             )}
           </div>
