@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://selftaught-dev.com/resume-template/"
+  to = "https://courses.selftaught-dev.com/self-taught-dev-resume-template"
+  status = 301
+  force = true
