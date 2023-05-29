@@ -4,6 +4,7 @@
   status = 301
   force = true
 
+[[redirects]]
   from = "https://selftaught-dev.com/portfolio/"
   to = "https://portfolio.selftaught-dev.com/"
   status = 301
