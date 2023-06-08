@@ -9,3 +9,9 @@
   to = "https://portfolio.selftaught-dev.com/"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "https://selftaught-dev.com/"
+  to = "https://courses.selftaught-dev.com/"
+  status = 301
+  force = true
